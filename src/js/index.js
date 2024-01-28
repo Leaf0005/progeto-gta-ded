@@ -1,5 +1,5 @@
-const botao = document.querySelector(".bnt-plataforma")
-var conteudo = document.querySelector(".bnt-plataforma .plataformas")
+const botao = document.querySelector(".btn-plataforma")
+var conteudo = document.querySelector(".btn-plataforma .plataformas")
 const botaoestaaberto = conteudo.classList.contains("ativo");
 
 botao.addEventListener('click', () => {
